@@ -9,6 +9,22 @@
 .name {
     position: absolute;
     right: 50%;
+    margin-right: 325px;
+    height: 74px;
+}
+
+.about {
+    display: inline-block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    margin: auto;
+    background: whitesmoke;
+    width: 960px;
+    height: 400px;
+    margin-top: 95px;
 }
 
 body {
@@ -27,7 +43,6 @@ h1 {
     border-width: 3px;
     border-color: #cccccc;
     padding: 20px;
-    float: left;
     }
 
 h2 {
