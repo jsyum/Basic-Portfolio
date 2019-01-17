@@ -1,49 +1,56 @@
 .header {
     background-color: white;
-    height: 74px;
+    height: 81px;
     border-bottom: 1px solid grey;
     margin: 0;
     position: relative;
 }
 
 .name {
-    position: absolute;
-    right: 50%;
-    margin-right: 325px;
-    height: 74px;
-}
-
-.about {
-    display: inline-block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    margin: auto;
-    background: whitesmoke;
-    width: 960px;
-    height: 400px;
-    margin-top: 95px;
-}
-
-body {
-    background-color: #dddddd;
-    margin: 0px;
-}
-
-h1 {
+    width: 200px;
+    margin-left: 10%;
     font-family: 'Georgia';
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    margin: 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     border-style: solid;
     border-width: 3px;
     border-color: #cccccc;
     padding: 20px;
-    }
+}
+
+.links {
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    color: grey;
+    box-align: right;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.about {
+    margin-left: 10%;
+    background: whitesmoke;
+    width: 80%;
+    height: 400px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+body {
+    background-color: #dddddd;
+    margin: 0px;
+}
 
 h2 {
     font-size: 25px;
@@ -52,4 +59,9 @@ h2 {
     margin-bottom: 15px;
     text-decoration: bold;
 
+}
+
+img {
+    float: left;
+    padding: 5px;
 }
