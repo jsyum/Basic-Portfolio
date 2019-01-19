@@ -1,67 +1,84 @@
+body {
+  background-color: #dddddd;
+  margin: 0px;
+  height: 1000px;
+}
+
+/* SHARED */
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
 .header {
-    background-color: white;
-    height: 81px;
-    border-bottom: 1px solid grey;
-    margin: 0;
-    position: relative;
+  background-color: white;
+  height: 81px;
+  border-bottom: 1px solid grey;
+  margin: 0;
+  position: relative;
 }
 
 .name {
-    width: 200px;
-    margin-left: 10%;
-    font-family: 'Georgia';
-    font-size: 30px;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #cccccc;
-    padding: 20px;
+  width: 200px;
+  margin-left: 10%;
+  font-family: "Georgia";
+  font-size: 30px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #cccccc;
+  padding: 20px;
+  display: inline-block;
 }
 
 .links {
-    display: block;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    position: absolute;
-    left: 60%;
-    top: 5%;
-    color: grey;
-    box-align: right;
-
+  float: right;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  color: grey;
+  box-align: right;
 }
 
 nav li {
-    display: inline-block;
-    padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 
+/* ABOUT */
 .about {
-    margin-left: 10%;
-    background: whitesmoke;
-    width: 80%;
-    height: 400px;
-    margin-top: 10px;
-    padding: 15px;
-}
-
-body {
-    background-color: #dddddd;
-    margin: 0px;
+  margin-left: 10%;
+  background: whitesmoke;
+  width: 85%;
+  height: 40%;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 h2 {
-    font-size: 25px;
-    color: #4aaaa5;
-    text-align: left;
-    margin-bottom: 15px;
-    text-decoration: bold;
-
+  font-size: 25px;
+  color: #4aaaa5;
+  text-align: left;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  text-decoration: bold;
 }
 
 img {
-    float: left;
-    padding: 5px;
+  float: left;
+  padding: 5px;
+  width: 40%;
 }
+
+p {
+  display: inline;
+}
+
+.inline-position {
+  display: inline;
+}
+
+/* FOOTER */
