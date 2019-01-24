@@ -1,7 +1,7 @@
 body {
   background-color: #dddddd;
   margin: 0px;
-  height: 1000px;
+  height: 100%;
 }
 
 /* SHARED */
@@ -53,8 +53,7 @@ nav li {
   margin-left: 10%;
   background: whitesmoke;
   width: 85%;
-  height: 45%;
-  margin-top: 10px;
+  height: 53%;
   padding: 5px;
 }
 
@@ -67,24 +66,21 @@ h2 {
   text-decoration: bold;
 }
 
-img {
-  float: left;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
   padding: 5px;
-  width: 40%;
-}
-
-p {
-  display: inline;
-}
-
-.inline-position {
-  display: inline;
 }
 
 /* FOOTER */
 footer {
   padding: 30px 0;
   clear: both;
+  bottom: 0;
+  float: bottom;
   font-size: 12px;
   color: #cccccc;
   text-align: center;
